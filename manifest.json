@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Googleyeser",
+  "version": "1.0",
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"], 
+        "js": ["./main.js"],
+        "run_at": "document_end"
+    }
+],
+  "manifest_version": 3,
+  "description": "Google eyes are watching you"
+}

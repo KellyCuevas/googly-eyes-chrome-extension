@@ -17,7 +17,8 @@
     // key into img and set css style position to relative
         // console.log(contents[prop].parentNode)
     // key into each img parent and add googlyeyes img as child
-        contents[prop].setAttribute('src', 'https://i.imgur.com/44r1bmL.png')
+        // contents[prop].setAttribute('src', 'https://i.imgur.com/44r1bmL.png')
+        contents[prop].setAttribute('src', 'https://i.giphy.com/media/mWNU6h71kQ7jakm4rA/giphy.webp')
         // contents[prop].parentNode.appendChild(eyes);
     // possible check css properties of img to filter out small imgs
         // contents[prop].parentNode.removeChild(contents[prop]);
